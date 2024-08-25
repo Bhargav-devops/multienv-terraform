@@ -7,10 +7,10 @@ terraform {
   }
 
   backend "s3" {
-    # bucket = "daws-76-bhargav-tfstate"
-    # key    = "foreach"
-    # region = "us-east-1"
-    # dynamodb_table = "daws-tfstate-table"
+    bucket = "daws-76-bhargav-tfstate"
+    key    = "workspace"
+    region = "us-east-1"
+    dynamodb_table = "daws-tfstate-table"
   }
 
 }
