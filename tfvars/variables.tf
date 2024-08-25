@@ -1,10 +1,11 @@
 variable instance_name{
     type = map 
-    default = {
-        mongodb = "t3.small"
-        redis = "t2.micro"
-        shipping = "t3.small"
-    }
+    # default = {
+    #     mongodb = "t3.small"
+    #     redis = "t2.micro"
+    #     shipping = "t3.small"
+    #     web = "t2.micro"
+    # }
 }
 
 variable zone_id{
